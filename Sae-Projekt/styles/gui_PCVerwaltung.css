@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+div#main {
+    margin: auto;
+    width: 700px;
+    height: 405px;
+    border: 2px solid cornflowerblue;
+    padding: 10px;
+}
+
+div#dateneingabe {
+    width: 320px;
+    height: 215px;
+    border: 2px solid cornflowerblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+div#ein_ds_anzeige {
+    width: 320px;
+    height: 210px;
+    border: 2px solid cornflowerblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
+}
+
+div#datensatzsteuerung {
+    height: 100px;
+    border: 2px solid cornflowerblue;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+td label {
+    font-size: 10.5pt;
+}
+
+.tdbutton {
+    text-align: center;
+}
+
+td button[type="submit"] {
+    margin-top: 5px;
+}
+
+textarea {
+    width: 315px;
+    height: 130px;
+    resize: none;
+}
+
+.leftScroll {
+    float: left;
+}
+
+.centerScroll {
+    text-align: center;
+}
+
+.rightScroll {
+    float: right;
+}
